@@ -1,0 +1,3 @@
+Creator: Joseph Guro
+
+To build this solution, you must have installed java-1.8.0-openjdk. Next, run javac AutocompleteProvider.java, and then java AutocompleteProvider. The program will start and prompt you to type "train", "input", or "exit". If you choose "train", type in some text to be used by the algorithm to recommend future words. If you choose "input", type in a word fragment and all recommended words will be displayed to you in order of confidence. After you've chosen "input", any future "train" choice will automatically give you new recommended words based on your last word fragment given as "input". Choosing "exit" ends the program.
